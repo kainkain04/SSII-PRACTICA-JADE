@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Lanzar Plataforma JADE",
+            "request": "launch",
+            "mainClass": "jade.Boot",
+            "args": "-gui perceptor:es.upm.practica.AgentePercepcion",
+            "classPaths": [
+                "$Auto",
+                "${workspaceFolder}/lib/jade.jar",
+                "${workspaceFolder}/lib/commons-codec.jar",
+                "${workspaceFolder}/lib/jsoup-1.17.2.jar"
+            ]
+        }
+    ]
+}

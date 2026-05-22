@@ -4,7 +4,7 @@ import jade.core.Agent;
 import jade.core.behaviours.OneShotBehaviour;
 
 public class AgentePercepcion extends Agent {
-
+	//prueba
     protected void setup() {
         System.out.println("Hola! El agente de percepcion " + getLocalName() + " ya esta listo.");
         

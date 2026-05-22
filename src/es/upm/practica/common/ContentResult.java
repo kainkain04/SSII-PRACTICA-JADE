@@ -1,5 +1,7 @@
 package es.upm.practica.common;
 
-public class ContentResult {
+import java.io.Serializable;
+
+public class ContentResult implements Serializable{
 
 }
